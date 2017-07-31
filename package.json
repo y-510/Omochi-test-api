@@ -1,8 +1,4 @@
 {
-  "name": "omochi-test-api",
-  "version": "0.0.1",
-  "private": true,
-  "engines": {
-    "node": "v4.2.x"
-    }
-  }
+ "name": "omochi-test-api",
+ "version": "0.0.1"
+}
