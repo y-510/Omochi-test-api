@@ -6,5 +6,5 @@ var server = http.createServer(
         response.write('Hello World!!');
         response.end();
     }
-).listen(3000);
-sys.log('Server running at http://localhost:3000/');
+).listen(process.env.PORT || 8080);
+sys.log('Server running');
